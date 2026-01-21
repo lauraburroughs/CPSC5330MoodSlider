@@ -13,6 +13,10 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var moodLabel: UILabel!
     
+    @IBOutlet weak var datePicker: UIDatePicker!
+    
+    @IBOutlet weak var savedLabel: UILabel!
+    
     
     
     override func viewDidLoad() {
@@ -46,6 +50,20 @@ class ViewController: UIViewController {
         
     }
             
+    
+    @IBAction func saveMood(_ sender: UIButton) {
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
 }
 
