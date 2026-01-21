@@ -52,18 +52,15 @@ class ViewController: UIViewController {
             
     
     @IBAction func saveMood(_ sender: UIButton) {
+        
+        let formatter = DateFormatter()
+        formatter.dateStyle = .medium
+        formatter.timeStyle = .none
+        
+        let dateString = formatter.string(from: datePicker.date)
+        savedLabel.text = "On \(dateString), you felt \(moodLabel.text!)"
+  
     }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     
 }
 
